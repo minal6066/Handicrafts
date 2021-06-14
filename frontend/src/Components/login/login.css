@@ -1,0 +1,49 @@
+.login-form {
+    margin: auto;
+}
+
+.contain {
+    display: flex;
+}
+
+.image-container{
+    width: 50%;
+    object-fit: cover;
+    height: 90vh;
+}
+.login-image {
+    position: fixed;
+    object-fit: cover;
+    width: inherit;
+    height: 100%;
+    padding: 0;
+}
+.input-fields{
+    margin-top: 50px;
+}
+
+.input-form-control{
+    background-color: white;
+    outline: none;
+    /* border-bottom: 1px solid gray; */
+    line-height: 2rem;
+    /* padding: 2px; */
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 40%;
+    padding-left: 5px;
+}
+
+.login-button{
+    border-radius: 15px  !important;
+}
+
+.login-button:hover{
+    /* border-radius: 20px  !important; */
+    background: white !important;
+    color: #1890ff !important;
+}
+
+.top-padding{
+    margin-top: 15px;
+}
